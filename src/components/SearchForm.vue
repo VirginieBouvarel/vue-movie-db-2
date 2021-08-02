@@ -1,15 +1,8 @@
 <template>
   <section class="search">
-    <form action="" class="search-form">
-      <input
-        type="search"
-        name="search-input"
-        id="search-input"
-        class="search-input"
-      />
-      <button type="submit" id="search-btn" class="search-btn">
-        Rechercher
-      </button>
+    <form action="" class="form">
+      <input type="search" class="input" />
+      <button type="submit" class="btn">Rechercher</button>
     </form>
   </section>
 </template>
@@ -21,20 +14,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.search-form {
+.form {
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.search-input {
+.input {
   border: none;
   border: 1px solid silver;
   border-radius: 3px;
   padding: 0.5rem;
   width: 75%;
 }
-.search-btn {
+.btn {
   border: none;
   background-color: hsl(260, 71%, 62%);
   color: hsl(0, 0%, 100%);

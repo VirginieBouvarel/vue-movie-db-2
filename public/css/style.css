@@ -1,3 +1,13 @@
+/* GLOBALS */
+:root {
+  --font-body: "Commissioner", sans-serif;
+  --color-black: hsl(0, 0%, 0%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(260, 10%, 29%);
+  --color-light-grey: hsl(0, 0%, 48%);
+  --bg-violet: hsl(260, 71%, 62%);
+}
+
 html {
   font-size: 62.5%; /*1rem = 10px*/
   box-sizing: border-box;
@@ -12,7 +22,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-body);
   font-size: 1.4rem;
 }
 
